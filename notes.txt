@@ -1,5 +1,0 @@
-Command to run-
-npm run dev
-
-Command to create optimised version readt for production-
-npm run build
