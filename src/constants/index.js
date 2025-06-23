@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "iOS Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Full Stack Web Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Cloud Developer (Learning)",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Machine Learning Explorer",
       icon: creator,
     },
   ];
@@ -73,7 +73,7 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "Typescript",
       icon: typescript,
     },
     {
@@ -115,56 +115,54 @@ import {
   ];
   
   const experiences = [
+    // {
+    //   title: "React.js Developer",
+    //   company_name: "Starbucks",
+    //   icon: starbucks,
+    //   iconBg: "#383E56",
+    //   date: "March 2020 - April 2021",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Software Developer",
+      company_name: "999T Ltd",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Sept 2023 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Piloted the development of the H4X0R app, an innovative news platform for iOS, using advanced technologies and Swift.",
+        "Engineered the implementation of third-party APIs to dynamically retrieve and showcase real-time news updates in a structured table format, improving code quality by 12% and reduced loading time by 11%.",
+        "Standardized a cutting-edge feature allowing users to view complete articles directly in the app interface, eliminating the need for external browsing; resulting in a 8% increase in app performance.",
+        "Concocted software development expertise by implementing version control with Git, minimizing code conflicts, and enhancing collaboration efficiency.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Full-stack Web Developer Intern",
+      company_name: "PressPeaK Pvt Ltd",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "Jan 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Directed the development of a fully-responsive website for PressPeaK that prioritized optimal user experiences using HTML, CSS, JS, Firebase, Node.js, and achieved significant improvements in site load time by 9% across all major platforms.",
+        "Devised and applied a user-centric interface optimization strategy, significantly improving cross-device compatibility, resulting in a 10% decrease in development time.",
       ],
     },
   ];
@@ -198,67 +196,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "PressPeaK",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "PressPeaK is a burgeoning platform specifically designed to cater to the needs of aspiring and accomplished journalists in around the globe. A platform to showcase proof of work and highlight skills.",
       tags: [
         {
-          name: "react",
+          name: "node.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "DreamHost + PM2",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://presspeak.co.in/",
     },
     {
-      name: "Job IT",
+      name: "Will Nest",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "WillNest is an intelligent iOS application that predicts potential diseases based on user-entered symptoms, medical history, and location-based trends using a Core ML-powered SVM model.",
       tags: [
         {
-          name: "react",
+          name: "swift firebase",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "UIKit",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "machine learning",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Harshit-2/WillNest",
     },
     {
-      name: "Trip Guide",
+      name: "Todoey",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Todoey is a sleek and intuitive iOS task management app that enables users to create, organize, and track their daily to-dos with persistent local storage for a seamless productivity experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "swift UIKit",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "realm",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mvc architecture",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Harshit-2/Todoey_iOS",
     },
   ];
   

@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hi, I'm Harshit, a passionate Full-Stack Web Developer and iOS Developer. I love transforming ideas into clean, functional, and scalable applications. With a strong foundation in Swift, Node.js, Firebase, and modern frontend technologies, I aim to build meaningful digital experiences that are both intuitive and efficient. I’m also currently expanding my skill set in cloud technologies with AWS.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
